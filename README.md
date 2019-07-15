@@ -1,16 +1,8 @@
-![doc_logo.png](/public/common/doc_logo.png)
-  
-[![Status](https://img.shields.io/badge/npm-v4.16.3-blue.svg)](https://www.npmjs.com/)
-[![Status](https://img.shields.io/badge/node-v8.0-blue.svg)](https://nodejs.org/en/download/)
-[![Status](https://travis-ci.org/Suwings/MCSManager.svg?branch=master)](https://travis-ci.org/Suwings/MCSManager)
-[![Status](https://img.shields.io/badge/License-AGPLv3-red.svg)](https://github.com/Suwings/MCSManager)
-
-
-简单，易用，多实例，轻量级的 Minecraft Server 控制面板
+简单，易用，多实例，轻量级的 ARK Server 控制面板
 
 **This project does not support English.**
 
-[中文简体](https://github.com/Suwings/MCSManager) | [中文繁體](README-traditional.md)
+[中文简体](https://github.com/ivampiresp/ArkManager) | [中文繁體](README-traditional.md)
 
 
 <br />
@@ -19,7 +11,7 @@
 -----------
 我们用最简单上手的方式，来构建整个应用程序，绝大部分的开发者可以轻而易举的进行修改，以及依照协议开发使用。你会发现，这可能是一非常适合你的 `Minecraft` 服务器管理工具，支持绝大部分的主流服务端。
 
-并且，我们将尽可能的降低扩展的学习成本来帮助你更好的扩展与自定义，让一个完全属于你的`Minecraft`服务器管理器出现。
+并且，我们将尽可能的降低扩展的学习成本来帮助你更好的扩展与自定义，让一个完全属于你的`ARK`服务器管理器出现。
 
 <br />
 
@@ -39,7 +31,7 @@
 
 下载并正确安装 `Node` 环境:
 
-下载源代码并解压: [https://github.com/Suwings/MCSManager/archive/master.zip](https://github.com/Suwings/MCSManager/archive/master.zip)
+下载源代码并解压: [https://github.com/iVampireSP/ArkManager/archive/master.zip](https://github.com/iVampireSP/ArkManager/archive/master.zip)
 
 进入程序源代码目录，并且在当前目录打开命令控制台
 
@@ -69,7 +61,7 @@ http://mcsm.suwings.top/ (官方站点 有中文简体/繁体中文版本)
 **提示:** 请尽可能的给予 root 权限运行，如无法给予 root 权限，请编辑好文件目录权限，如使用 Docker 等服务不保证能够完全正确运行。
 
 ```bash
-git clone https://github.com/Suwings/MCSManager.git
+git clone https://github.com/iVampireSP/ArkManager.git
 cd MCSManager
 npm install --production
 sudo node app.js #或 sudo npm start
